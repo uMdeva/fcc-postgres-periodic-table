@@ -23,6 +23,7 @@ else
   fi
 
   RESULT=$($PSQL "$QUERY")
+  
 
   if [[ -z $RESULT ]]
   then
