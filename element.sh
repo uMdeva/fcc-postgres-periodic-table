@@ -23,8 +23,7 @@ else
   fi
 
   RESULT=$($PSQL "$QUERY")
-  
-  
+
   if [[ -z $RESULT ]]
   then
     echo "I could not find that element in the database."
